@@ -1,0 +1,11 @@
+wordpress:
+  serviceType: ClusterIP
+mysql:
+  enable: true
+
+mysql:
+  mysqlRootPassword: "examplePassword"
+  mysqlUser: "wordpress"
+  mysqlPassword: "myPassword"
+  mysqlDatabase: "wordpress"
+
